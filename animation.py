@@ -58,7 +58,7 @@ class VirtualMemoryAnimation(Scene):
         
         code_lines = VGroup(
             Text("int main() {", font="Consolas", font_size=18, color=WHITE),
-            Text("  int* arr = new int[100];", font="Consolas", font_size=18, color=WHITE),
+            Text("  int* arr = new int[250];", font="Consolas", font_size=18, color=WHITE),
             Text("  // использование массива", font="Consolas", font_size=18, color=WHITE),
             Text("  delete[] arr;", font="Consolas", font_size=18, color=WHITE),
             Text("  return 0;", font="Consolas", font_size=18, color=WHITE),
